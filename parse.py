@@ -1,7 +1,7 @@
 import psycopg2
 import json
 import os
-#from constants import DBNAME, USERNAME, HOST, PASSWORD 
+from constants import DBNAME, USERNAME, HOST, PASSWORD 
 
 
 connect = "dbname= %s user= %s host= %s password= %s " % (DBNAME,USERNAME, HOST, PASSWORD)
