@@ -1,3 +1,7 @@
+#Parse.py
+
+#Used to parse JSON files to Postgres Database
+
 import psycopg2
 import json
 import os
@@ -9,6 +13,7 @@ conn = psycopg2.connect(connect)
 
 cur = conn.cursor()
 
+#Change to directory of JSON files
 rootdir = '../kevinbacon/films'
 
 count =10
