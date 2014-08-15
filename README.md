@@ -1,2 +1,0 @@
-kevin-bacon-challenge
-=====================
